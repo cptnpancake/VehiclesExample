@@ -8,7 +8,7 @@ class Vehicle {
     this.y = y;
     this.speed = speed;
   }
-
+ 
   void move() {
     x += speed;
     if(flying){
